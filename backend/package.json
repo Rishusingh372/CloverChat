@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node index",
+    "dev": "nodemon index",
     "format:check": "prettier --check .",
     "format:write": "prettier --write ."
   },
