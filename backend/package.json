@@ -5,8 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "format:check": "prettier --check .",
     "format:write": "prettier --write ."
   },
@@ -52,6 +52,6 @@
     "prettier": "3.2.5"
   },
   "engines": {
-     "node": "22.x"
+    "node": "22.x"
   }
 }
